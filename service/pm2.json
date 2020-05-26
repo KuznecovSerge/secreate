@@ -1,0 +1,17 @@
+{
+    "apps": [
+        {
+            "name": "external-ds",
+            "script": "./external.js",
+        },
+        {
+            "name": "storage-service",
+            "script": "./StorageService.js",
+        },
+        {
+            "name": "delivery-service",
+            "script": "./DeliveryService.js",
+        }
+
+    ]
+}
