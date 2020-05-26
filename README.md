@@ -11,23 +11,25 @@
 git clone https://github.com/KuznecovSerge/secreate.git
 ```
 
-## 1. Запуск сервисов
+## 1. Сервисы
 
 Перейдите в каталог сервисов и запустите менеджер процессов pm2
 
 ```bash
 cd secreate
 cd services
+npm install
 pm2 start pm2.json
 ```
 
-## 2. Запуск клиента
+## 2. Клиент
 
 Удобней всего запустить dev-сервер для быстрого запуска клиента 
 
 ```bash
 cd secreate
 cd client
+npm install
 npm run dev
 ```
 
