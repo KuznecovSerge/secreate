@@ -5,18 +5,18 @@
 2. **back** - `Node.js && pm2 - 3 services`
 
 
-Первым делом, чтобы скачать и запустить проект, выполните в командной строке:
+Первым делом, чтобы скачать проект, выполните в командной строке:
 
 ```bash
 git clone https://github.com/KuznecovSerge/secreate.git
-# или
-cmd
-git clone https://github.com/KuznecovSerge/secreate.git
 ```
 
-Затем перейдите в каталог сервисов и запустите менеджер процессов pm2
+## Запуск сервисов
 
-````cd secreate
+Перейдите в каталог сервисов и запустите менеджер процессов pm2
+
+```bash
+cd secreate
 cd services
 pm2 start pm2.json
 ```
@@ -25,7 +25,7 @@ pm2 start pm2.json
 
 Удобней всего запустить dev-сервер для быстрого запуска клиента 
 
-````bash
+```bash
 cd secreate
 cd client
 npm run dev
