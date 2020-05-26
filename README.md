@@ -19,7 +19,7 @@ git clone https://github.com/KuznecovSerge/secreate.git
 cd secreate
 cd services
 npm install
-pm2 start pm2.json
+npm run daemon
 ```
 
 ## 2. Клиент
